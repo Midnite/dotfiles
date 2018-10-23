@@ -1,1 +1,16 @@
-/Library/Group Containers/group.com.docker/settings.json
+{
+  "proxyHttpMode" : "system",
+  "diskPath" : "Library/Containers/com.docker.docker/Data/vms/0/Docker.raw",
+  "diskSizeMiB" : 122070,
+  "cpus" : 4,
+  "memoryMiB" : 2048,
+  "displayedWelcomeWhale" : true,
+  "buildNumber" : "26764",
+  "channelID" : "stable",
+  "settingsVersion" : 1,
+  "version" : "18.06.1-ce-mac73",
+  "displayedWelcomeMessage" : true,
+  "analyticsEnabled" : false,
+  "dockerAppLaunchPath" : "/Applications/Docker.app",
+  "linuxDaemonConfigCreationDate" : "2018-10-05 13:49:00 +0000"
+}
