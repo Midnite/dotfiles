@@ -1,0 +1,7 @@
+alias path='echo $PATH | tr -s ":" "\n"'
+
+
+alias gp='git pull'
+alias g='git'
+alias home='cd '
+alias gs='git status'

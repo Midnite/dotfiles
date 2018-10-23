@@ -1,0 +1,25 @@
+plugins=(… zsh-completions)
+autoload -U compinit && compinit
+
+source $ZSH/oh-my-zsh.sh
+
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+
+
+plugins=(git)
+plugins+=(zsh-nvm)
+export GH_TOKEN=“6c90e4259fc6706f5ca70bacd3b64a57b4c77b4c”
+export PATH=$HOME/.yarn/bin:$PATH
+
+
+function mkd() { 
+    mkdir -p "$@" && cd "$_";
+}
